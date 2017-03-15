@@ -1,0 +1,25 @@
+{
+  "name": "conversari",
+  "version": "0.0.1",
+  "description": "A quiet, encrypted messaging app",
+  "main": "index.js",
+  "scripts": {
+    "test": "hi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsTreasonThen/conversari.git"
+  },
+  "keywords": [
+    "nodejs",
+    "ItsTreasonThen",
+    "conversari",
+    "HaveYouEverHeardTheTradegyOfDarthPlageiusTheWise"
+  ],
+  "author": "B1naryVision & Gibbonator",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ItsTreasonThen/conversari/issues"
+  },
+  "homepage": "https://github.com/ItsTreasonThen/conversari#readme"
+}
