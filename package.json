@@ -23,6 +23,16 @@
     "conversari",
     "HaveYouEverHeardTheTradegyOfDarthPlageiusTheWise"
   ],
+  "maintainers": [
+      {
+         "name": "Matthew Gibbons",
+         "email": "matthew.gibbons1994@gmail.com"
+      },
+      {
+         "name": "Haraldur Albertsson",
+         "email": "harold.albertsson@gmail.com"
+      }
+  ],
   "author": "B1naryVision & Gibbonator",
   "license": "MIT",
   "bugs": {
