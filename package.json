@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "IAmTheSenate",
-    "start": "electron ."
+    "start": "npm run assets && electron .",
+    "assets": "gulp sass"
   },
   "repository": {
     "type": "git",
@@ -15,9 +16,9 @@
     "electron": "^1.4.1",
     "crypto-js": "^3.1.9-1",
     "websocket": "^1.0.24",
-    "jasmine-node":"^1.3.1",
-    "spectron":"3.6.0",
-    "bootstrap":"3.3.7"
+    "jasmine-node": "^1.3.1",
+    "spectron": "3.6.0",
+    "bootstrap": "3.3.7"
   },
   "keywords": [
     "nodejs",
@@ -26,19 +27,24 @@
     "HaveYouEverHeardTheTradegyOfDarthPlageiusTheWise"
   ],
   "maintainers": [
-      {
-         "name": "Matthew Gibbons",
-         "email": "matthew.gibbons1994@gmail.com"
-      },
-      {
-         "name": "Haraldur Albertsson",
-         "email": "harold.albertsson@gmail.com"
-      }
+    {
+      "name": "Matthew Gibbons",
+      "email": "matthew.gibbons1994@gmail.com",
+      "username": "Gibbonator"
+    },
+    {
+      "name": "Haraldur Albertsson",
+      "email": "harold.albertsson@gmail.com",
+      "username": "B1naryVision"
+    }
   ],
   "author": "B1naryVision & Gibbonator",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ItsTreasonThen/conversari/issues"
   },
-  "homepage": "https://github.com/ItsTreasonThen/conversari#readme"
+  "homepage": "https://github.com/ItsTreasonThen/conversari#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
