@@ -1,50 +1,39 @@
 {
   "name": "conversari",
-  "version": "0.0.1",
-  "description": "A quiet, encrypted messaging app",
-  "main": "main.js",
+  "version": "0.0.0",
   "scripts": {
-    "test": "IAmTheSenate",
-    "start": "npm run assets && electron .",
-    "assets": "gulp sass"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ItsTreasonThen/conversari.git"
-  },
+  "private": true,
   "dependencies": {
-    "electron": "^1.4.1",
-    "crypto-js": "^3.1.9-1",
-    "websocket": "^1.0.24",
-    "jasmine-node": "^1.3.1",
-    "spectron": "3.6.0",
-    "bootstrap": "3.3.7"
+    "@angular/animations": "~12.1.1",
+    "@angular/common": "~12.1.1",
+    "@angular/compiler": "~12.1.1",
+    "@angular/core": "~12.1.1",
+    "@angular/forms": "~12.1.1",
+    "@angular/platform-browser": "~12.1.1",
+    "@angular/platform-browser-dynamic": "~12.1.1",
+    "@angular/router": "~12.1.1",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.2.0",
+    "zone.js": "~0.11.4"
   },
-  "keywords": [
-    "nodejs",
-    "ItsTreasonThen",
-    "conversari",
-    "HaveYouEverHeardTheTradegyOfDarthPlageiusTheWise"
-  ],
-  "maintainers": [
-    {
-      "name": "Matthew Gibbons",
-      "email": "matthew.gibbons1994@gmail.com",
-      "username": "Gibbonator"
-    },
-    {
-      "name": "Haraldur Albertsson",
-      "email": "harold.albertsson@gmail.com",
-      "username": "B1naryVision"
-    }
-  ],
-  "author": "B1naryVision & Gibbonator",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ItsTreasonThen/conversari/issues"
-  },
-  "homepage": "https://github.com/ItsTreasonThen/conversari#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "@angular-devkit/build-angular": "~12.1.1",
+    "@angular/cli": "~12.1.1",
+    "@angular/compiler-cli": "~12.1.1",
+    "@types/jasmine": "~3.6.0",
+    "@types/node": "^12.11.1",
+    "jasmine-core": "~3.7.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "typescript": "~4.3.2"
   }
 }
