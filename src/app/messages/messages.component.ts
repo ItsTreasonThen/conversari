@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./messages.component.css']
 })
 export class MessagesComponent implements OnInit {
+  messages: { textContent: string, createdDate: Date }[] = [];
 
   constructor() { }
 
   ngOnInit(): void {
+    // @todo load previous messages
   }
 
+  handleSend(textContent: string) {
+    this.messages = [...this.messages, { textContent, createdDate: new Date() }];
+
+    // @todo send to backend with User ID/Name
+  }
 }

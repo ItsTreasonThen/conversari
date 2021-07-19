@@ -1,1 +1,7 @@
-<p>messages works!</p>
+<div data-id="messages" *ngFor="let message of messages">
+  <div class="p-around_small">{{message.createdDate.toLocaleString()}}: {{message.textContent}}</div>
+</div>
+
+<div class="p-around_small">
+  <app-text-input placeholder="input" name="stuff" (send)="handleSend($event)"></app-text-input>
+</div>
