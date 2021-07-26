@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import "assets/utilities/grid.css";
+@import "assets/utilities/padding.css";
+
+body {
+  background-color: #333333;
+  color: #fff;
+}

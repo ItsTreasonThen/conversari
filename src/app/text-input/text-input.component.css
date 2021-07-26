@@ -1,0 +1,26 @@
+input {
+  width: 100%;
+  border: 1px solid #9b9b9b;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 0.25em;
+  background: transparent;
+  transition: border-color 0.2s;
+  margin: 0;
+  flex: 0.99;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+svg {
+  color: #7accff;
+}
+
+button {
+  background-color: unset;
+  border: unset;
+}
