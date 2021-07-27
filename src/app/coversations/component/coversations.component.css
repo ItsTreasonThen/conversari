@@ -1,0 +1,37 @@
+.conversations-container {
+    padding: 2px;
+}
+
+.conversations-container :hover {
+    margin-left: 5px;
+    border-width: 2px;
+    background-color: rgb(173, 177, 230);
+}
+
+.conversation-block-container {
+    border: rgb(45, 47, 53);
+    border-width: 1px;
+    border-style: inset;
+    margin-bottom: 3px;
+    background-color: rgb(123, 135, 202);
+    opacity: 80%;
+    height: 10vh;
+}
+
+.conversation-block-container :hover{
+    margin-left: initial;
+}
+
+.attribute-container.title-container {
+    background-color: khaki;
+    padding: 0px;
+}
+
+.attribute-container.title-container:hover{
+    background-color: khaki;
+    padding: 0px;
+}
+
+.empty {
+    visibility: hidden;
+}

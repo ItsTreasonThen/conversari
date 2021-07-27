@@ -14,6 +14,7 @@ export class MessagesComponent implements OnInit {
   }
 
   handleSend(textContent: string) {
+    console.log("Sending msg: " + textContent);
     this.messages = [...this.messages, { textContent, createdDate: new Date() }];
 
     // @todo send to backend with User ID/Name

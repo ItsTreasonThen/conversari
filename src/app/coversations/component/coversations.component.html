@@ -1,0 +1,15 @@
+<div class="conversations-container">
+    <div *ngFor="let n of counter(CONVERSATION_SLOTS_ON_SCREEN), let i = index"
+    [ngClass]="conversations[i] != null? 'conversation-block-container' : 'empty'">
+    <div *ngIf="conversations[i]">
+        <div class="attribute-container title-container">
+            <span class="title" [textContent]="TITLE_TEXT"></span>
+            <span class="attribute">{{conversations[i].title}}</span>
+        </div>
+        <div class="attribute-container">
+            <span class="title" [textContent]="ID_TEXT"></span>
+            <span class="attribute">{{conversations[i].id}}</span>
+        </div>
+    </div>
+</div>
+</div>
